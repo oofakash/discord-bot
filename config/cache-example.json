@@ -1,0 +1,11 @@
+{
+    "cmd-category": {
+        "utility": "Utility",
+        "moderation": "Moderation",
+        "admin": "Administrator",
+        "owner": "Owner",
+        "fun": "fun" 
+    },
+
+    "aboutBot": "Here goes the brief description of your bot - that you can use instead of writing the same desc. multiple times."
+}
