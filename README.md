@@ -1,5 +1,6 @@
-## Dummy-porkchop, a discord bot template for oldmonk server members.
 
+![Discord](https://img.shields.io/discord/679355127731191809?color=dark-green&label=oldmonk&logo=discord&logoColor=white&style=flat-square)
+## Dummy-porkchop, a discord bot template for oldmonk server members.
 
 ### Some pre-configurations and requirements.
 * Make sure you have `Node.js` installed, you can check it in your terminal by using `node -v`. If you don't have node installed, you can do it from [here](https://nodejs.org/en/).
