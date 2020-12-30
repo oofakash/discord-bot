@@ -1,6 +1,3 @@
-
-![Discord](https://img.shields.io/discord/679355127731191809?color=dark-green&label=oldmonk&logo=discord&logoColor=white&style=flat-square)
-
 ## Dummy-porkchop, a discord bot template for oldmonk server members.
 
 ### Some pre-configurations and requirements.
@@ -41,6 +38,7 @@ yarn add eslint --dev
 ```
 You can make your own custom rules while configuring your linter.
 
+
 ## Make sure..
 
 You install these dependencies.
@@ -78,6 +76,20 @@ yarn add mongoose
 # or 
 npm install mongoose
 ```
+
+### Storing information [Using database]
+
+You can use a database to store data and retrive it, you will need a database if you're planning to add any sort of **levelling-system** or a **bot-economy system**, you would need a db for a better moderation commands.
+So I've used **MongoDB** for this project - and I'm using `mongoose` for establishing connection between the bot and the database.
+You can visit [MongoDB](https://www.mongodb.com) and create a cluster there - then you'll be almost done.
+If you don't know how to create one - you can join my [discord-server](https://discord.gg/CRWWsRFQux) - I have instructions over there.
+
+After that all you need to do is install mongoose - `yarn add mongoose` or `npm install mongoose`.
+
+Then you just need to open your collection and get the connection link and paste in in your config file (`config-example.json` is UPDATED). When you'll start the bot you'll see that its connected to the database in the console. (Make sure you edit the `ready.js` with your database name.)
+
+If you encounter issues feel free to join the [discord](https://discord.gg/CRWWsRFQux).
+
 ### 2. Optional Dependencies (recommended)
 
 
