@@ -18,8 +18,7 @@ module.exports = class extends Command {
 			.setAuthor(`porkchop`)
 			.setDescription(aboutBot)
 			.addFields(
-				{ name: '`Bot Developer`', value: `**Akash#3554**` },
-				{ name: '`Links`', value: `Visit [captain-porkchop](https://akash-inc.com/discord) on the web.`, inline: true }
+				{ name: '`Bot Developer`', value: `**Akash#3554**` }
 			);
 		message.channel.send(creditEmbed);
 	}
