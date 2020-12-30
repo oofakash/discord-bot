@@ -2,5 +2,6 @@
     "prefix": "YOUR_PREFIX_HERE",
     "token": "YOUR_BOT_TOKEN",
     "defaultPerms": ["SEND_MESSAGES", "VIEW_CHANNEL"],
+    "porkchopdb": "YOUR DATABASE CONNECTION URL",
     "owners": ["567591328775405573"]
 }
